@@ -1,0 +1,365 @@
+body{
+    background-image: url('../imagen/FondoLali.jpg');
+}
+
+
+
+
+main,header,footer{
+    
+    
+    background-color: rgba(192, 192, 192,0.8);
+    
+    /*border: 1px white solid;*/
+    
+    width: 1200px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    
+}
+
+main{
+    width:1100;
+    background-color: white;
+    /*border: 1px solid black;*/
+}
+
+
+
+/*TODO ESTO ES EL TITULO H1*/
+h1{
+    margin: 0px;
+    /*border: 50px;*/
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    
+    /*COLOR FAVORITO: TURQUESA ROJO BLANCO NEGRO AZUL ROSA FUCSIA PURPURA.*/
+    text-shadow: -3px -3px 2px rgb(93, 193, 185),
+    -4px -4px 3px red,
+    -5px -5px 1px purple;
+}
+.corazon::before {
+    content: "\2665";
+    color: red;
+    margin:5px;
+}
+
+.corazon::after {
+    content: "\2665";
+    color: red;
+    margin:5px;
+}
+
+
+h2{
+    background-color: white;
+    text-align: center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*border: 1px yellow solid;*/
+}
+h3{
+    text-align: center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    /*border: 1px green solid;*/
+    background-color:rgba(255, 255, 255,0.6);
+}
+main{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gainsboro; 
+}
+div{
+    text-align: center;
+}
+
+/*ESTO ES PARA EL FOOTER y FUNCIONA OK*/
+
+footer{
+    border: 0px solid black;
+    /*background-color: white;*/
+    /*display: inline-block;*/
+
+}
+
+footer div div{
+
+    display: inline-block;
+    text-align: center;
+    /*border: 1px white solid;*/
+    width: 500px;
+
+}
+footer div div img {
+    /*width: 200px;*/
+    text-align: center;
+}
+/*
+footer div + ul{
+    display: inline-block;
+    overflow: auto;
+    border: 1px yellow solid;
+    background-color: blue;
+}*/
+/*
+ul li:first-child{
+    background-color: red;
+    color: green
+}*/
+
+/*Correccion del NAV*/
+
+nav{
+    
+    display:flex;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    /*border: 5px red solid;*/
+    justify-content: center;
+    
+}
+
+nav ul{
+    
+    display: flex;
+    align-items: center;
+    /*display: inline-block;*/
+    /*border: green;*/
+    
+
+}
+
+nav ul li{
+    
+    display: flex;
+    align-items: center;
+    /*text-align: right;*/
+    /*display: inline-block;*/
+    /*border: 1px yellow solid;*/
+    width: 150px;
+    height: 0px;
+    /*text-align:center;*/
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    border: 1px solid red;
+    background-color: burlywood;
+    
+}
+
+nav ul li a {
+    border: 1px solid yellow;
+    width: 150px;
+    /*text-align: center;
+    align-items: center;*/
+    /*display: flex;
+    text-align: center;
+    
+    align-items: center;*/
+}
+
+.seleccionado{
+    background-color: white;
+}
+
+/*PRUEBA2*/
+.prueba2{
+    color: black;
+    /*border: 1px red solid;*/
+}
+
+/*Biografia ajuste*/
+.contenedorX{
+    column-count: 3;
+    border: 1px solid black;
+    /*justify-content: center;*/
+    /*padding-left: 50px;*/
+    /*width: 900px;*/
+    column-rule: 2px dotted blue;/*Esto genera a separacion a nivel visual, son los puntitos azules que separan las columas
+    /*column-width: 300px;*/
+    column-gap: 50px;/*Esto me da el GAP entre el column rule y el texto*/
+    /*background-color: yellow;*/
+    text-align: justify;
+    margin: 10px;
+    padding:30px;
+    margin-top:0px;
+}
+
+
+/*Biografia ajuste*/
+.contenedorX2{
+    column-count: 2;
+    border: 1px solid black;
+    /*justify-content: center;*/
+    /*padding-left: 50px;*/
+    /*width: 900px;*/
+    column-rule: 2px dotted blue;/*Esto genera a separacion a nivel visual, son los puntitos azules que separan las columas
+    /*column-width: 300px;*/
+    column-gap: 50px;/*Esto me da el GAP entre el column rule y el texto*/
+    /*background-color: yellow;*/
+    text-align: justify;
+    margin: 10px;
+    padding:30px;
+    margin-top:0px;
+}
+
+#video{
+    text-align: center;
+    border: 1px solid white;
+}
+
+@font-face {
+    font-family: 'Fasthand', cursive;
+    src: url();
+    src:
+        url()
+}
+
+
+/**/
+
+
+.albumes{
+    display: inline-block;
+    width: 190px;
+    justify-content: center;
+    text-align: center;
+    border: 1px black solid
+}
+
+.columnas{
+    display: inline-block;
+    
+    justify-content: center;
+    text-align: center;
+    /*border: 1px red solid*/
+}
+
+
+
+/**/
+/*
+.columnas{
+    column-count: 2;
+    margin:0px;
+    border:1px red solid;
+    column-rule: 2px dotted blue;/*Esto genera a separacion a nivel visual, son los puntitos azules que separan las columas
+    
+    column-gap: 10px;/*Esto me da el GAP entre el column rule y el texto
+
+}*/
+
+/**/
+
+.Premios ol li {
+    list-style: none;
+    
+}
+
+.personal div ul li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+/*MENU EMERGENTE*/
+/* nav{
+    border: 1px solid green; 
+} */
+
+/* .menu_modificado{
+    border: 1px solid black;
+} */
+.menu_modificado > li{
+    position: relative;/*Esto hace que la referencia del menu emergenta sea desde cada item*/
+}
+
+.menu_modificado > li > ul{
+    display: none;
+    position: absolute;
+    /* background-color: red; */
+    top: 40px;/*Esto le da un margen de 40px desde el list-item, hace que se posicione justo debajo de enlace, poner en cero y borrar este item no es lo mismo, si es cero lo situa sobre el list item y si no existe centra el ul*/
+    padding-left: 0px;/*Esto me anula el padding izquierdo de cada elemento posterior*/
+    /* margin:0px; */
+    /* left:0px; */
+}
+
+.menu_modificado > li > ul > li{
+    position: relative;
+    margin:0px; 
+}
+
+.menu_modificado > li:hover ul{/*creo que la diferencia es que vos no te parasen el ul, sino en el li y afectas al ul*/
+    display: block;
+}
+
+.menu_modificado > li > ul > li:hover{
+    background-color: blanchedalmond;
+}
+/*Al darle a todo la importancia de hijos directo, esto sigue funcionando pero sin afectar al resto*/
+/*Prueba Doble Menu*/
+
+
+.exclusivo{
+    position: relative;/*Esto hace que la referencia del menu emergenta sea desde cada item*/
+    
+}
+
+/* .exclusivo > ul */
+.exclusivo #cansado{
+    display: none;
+    position: absolute;
+    top: -1px;/*Esto le da un margen de 40px desde el list-item, hace que se posicione justo debajo de enlace, poner en cero y borrar este item no es lo mismo, si es cero lo situa sobre el list item y si no existe centra el ul*/
+    margin-top: -1px;
+    margin-left: 385px;/*Esto me anula el padding izquierdo de cada elemento posterior*/
+    /* z-index: 1; */
+    padding-left: 0px;
+}
+
+.exclusivo > ul > li{
+    position: relative;
+    margin:0px; /*Esto elimina cualquier margin que esto tenga en algun lugar*/
+}
+
+.exclusivo:hover #cansado{/*creo que la diferencia es que vos no te parasen el ul, sino en el li y afectas al ul*/
+    display: block;
+    
+    /* z-index: 0; */
+}
+
+.exclusivo > ul > li:hover{
+    background-color: blanchedalmond;
+}
+
+.seleccionado2{
+    border: 1px solid black;
+}
+
+
+/*Efectos imagen principal*/
+#movimiento:hover{
+    filter: sepia(0.1) drop-shadow(5px -5px 10px white) drop-shadow(0px 0px 5px red);
+}
+
+.fotosConcierto img:hover{
+    filter: sepia(0.2) drop-shadow(0px 0px 5px black) drop-shadow(0px 0px 15px purple);
+}
+
+
+.fotosShow img:hover{
+    filter: sepia(0.6) drop-shadow(-2px -2px 10px red) drop-shadow(2px 2px 10px yellow);
+}
+
+/*Fin efectos de imaganes*/
